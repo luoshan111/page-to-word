@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>网页导出到 Word</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <div class="eyebrow">PAGE TO WORD</div>
+    <h1>导出当前网页</h1>
+    <p class="description">提取网页标题、正文和来源链接，生成可编辑的 Word 文档。</p>
+    <button id="exportButton" type="button">导出为 .docx</button>
+    <p id="status" role="status" aria-live="polite">准备就绪</p>
+    <p id="warnings" class="note" role="status"></p>
+    <p class="note">保留文字、标题、列表、链接和基础表格。图片及复杂网页布局暂不导出。导出期间请保持此窗口打开。</p>
+  </main>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

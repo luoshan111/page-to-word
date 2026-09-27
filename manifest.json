@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "网页导出到 Word",
+  "version": "1.1.0",
+  "description": "将当前网页的标题、正文和来源链接导出为 Word 文档。",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "action": {
+    "default_title": "导出到 Word",
+    "default_popup": "popup.html"
+  }
+}
